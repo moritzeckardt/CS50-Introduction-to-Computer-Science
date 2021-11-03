@@ -6,6 +6,8 @@ In the end I can only recommend you to work through the various problem sets you
 
 # Problem sets
 Week 1 - Population: https://cs50.harvard.edu/x/2021/labs/1/population/
+
 Week 1 - Mario: https://cs50.harvard.edu/x/2021/psets/1/mario/more/
+
 Week 1 - Credit: https://cs50.harvard.edu/x/2021/psets/1/credit/
 
