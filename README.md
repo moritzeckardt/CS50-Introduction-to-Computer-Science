@@ -1,8 +1,7 @@
 # CS50-Introduction-to-Computer-Science
-This repository is just used to showcase my solutions for the several programming tasks of the course "CS50's Introduction to Computer Science" from the Harvard University. 
-I have linked the task belonging to each solution at the top of every file.
+This repository is just used to showcase my solutions for the several programming tasks of the course "CS50's Introduction to Computer Science" from the Harvard University. I can only recommend you to work through the various problem sets yourself.
 
-In the end I can only recommend you to work through the various problem sets yourself.
+I have linked the task belonging to each solution at the top of every file as well as down here. So feel free to check them out together with my uploaded solutions.
 
 # Problem sets solved
 Week 1 - Population: https://cs50.harvard.edu/x/2021/labs/1/population/ 
