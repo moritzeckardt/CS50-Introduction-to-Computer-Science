@@ -3,3 +3,7 @@ This repository is just used to showcase my solutions for the several tasks of t
 I have linked the task belonging to each solution at the top of every file.
 
 In the end I can only recommend you to work through the various problem sets yourself.
+
+# Problem sets
+Population: https://cs50.harvard.edu/x/2021/labs/1/population/
+
