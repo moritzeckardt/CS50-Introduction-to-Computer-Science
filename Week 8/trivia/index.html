@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // Task: https://cs50.harvard.edu/x/2021/labs/8/
+            
+            // Reset buttons
+            function resetButtons() {
+                var buttons = document.querySelectorAll(".button")
+                buttons.forEach(function (button) {
+                    button.style.backgroundColor = "#d9edff"
+                })
+            }
+
+            // Check building answer and print result
+            function checkBuildingAnswer() {
+                resetButtons()
+
+                if (event.target.id == "correct") {
+                    document.getElementById("building_result").innerHTML = "Correct!"
+                    document.getElementById(event.target.id).style.backgroundColor = "green"
+                }
+                else {
+                    document.getElementById("building_result").innerHTML = "Incorrect"
+                    document.getElementById(event.target.id).style.backgroundColor = "red"
+                }
+            }
+
+            // Add event listener
+            document.addEventListener("DOMContentLoaded", function (event) {
+                // Question 1: Building
+                var buttons = document.querySelectorAll(".button")
+                buttons.forEach(function (button) {
+                    button.addEventListener("click", checkBuildingAnswer)
+                })
+
+                // Question 2: Soccer player
+                inputField = document.querySelector("input")
+                checkButton = document.querySelector("#check")
+                checkButton.addEventListener("click", function (event) {
+                    if (inputField.value.toLowerCase() == "ronaldo") {
+                        document.getElementById("player_result").innerHTML = "Correct!"
+                        inputField.style.backgroundColor = "green"
+                    }
+                    else {
+                        document.getElementById("player_result").innerHTML = "Incorrect"
+                        inputField.style.backgroundColor = "red"
+                    }
+                })
+            })
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What is the tallest bulding in the world?</h3>
+                <h3 id="building_result"></h3>
+                <button id="incorrect-1" class="button">Shanghai Tower</button>
+                <button id="incorrect-2" class="button">One World Trade Center</button>
+                <button id="correct" class="button">Burj Khalifa</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What is the last name of the soccer player with the most earnings in 2021?</h3>
+                <h3 id="player_result"></h3>
+                <input type="text"></input>
+                <button id="check" class="input">Confirm</button>
+            </div>
+
+        </div>
+    </body>
+</html>
