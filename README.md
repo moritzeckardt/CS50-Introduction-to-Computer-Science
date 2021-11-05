@@ -41,3 +41,5 @@ Week 6 - Credit: https://cs50.harvard.edu/x/2021/psets/6/credit/
 Week 6 - Readability: https://cs50.harvard.edu/x/2021/psets/6/readability/
 
 Week 6 - DNA: https://cs50.harvard.edu/x/2021/psets/6/dna/
+
+Week 7 - Trivia: https://cs50.harvard.edu/x/2021/labs/8/
