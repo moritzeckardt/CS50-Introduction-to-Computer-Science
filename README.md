@@ -43,3 +43,5 @@ Week 6 - Readability: https://cs50.harvard.edu/x/2021/psets/6/readability/
 Week 6 - DNA: https://cs50.harvard.edu/x/2021/psets/6/dna/
 
 Week 8 - Trivia: https://cs50.harvard.edu/x/2021/labs/8/
+
+Week 9 - Finance: I made a extra project for this. Go check it out!
