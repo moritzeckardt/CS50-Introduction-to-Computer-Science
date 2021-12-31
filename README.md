@@ -14,7 +14,7 @@ Week 2 - Scrabble: https://cs50.harvard.edu/x/2021/labs/2/
 
 Week 2 - Readability: https://cs50.harvard.edu/x/2021/psets/2/readability/
 
-Week 2 - Substituion: https://cs50.harvard.edu/x/2021/psets/2/substitution/
+Week 2 - Substitution: https://cs50.harvard.edu/x/2021/psets/2/substitution/
 
 Week 3 - Sort: https://cs50.harvard.edu/x/2021/labs/3/
 
@@ -41,3 +41,7 @@ Week 6 - Credit: https://cs50.harvard.edu/x/2021/psets/6/credit/
 Week 6 - Readability: https://cs50.harvard.edu/x/2021/psets/6/readability/
 
 Week 6 - DNA: https://cs50.harvard.edu/x/2021/psets/6/dna/
+
+Week 8 - Trivia: https://cs50.harvard.edu/x/2021/labs/8/
+
+Week 9 - Finance: I made a extra project for this. Go check it out!

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -40,16 +39,16 @@
                 })
 
                 // Question 2: Soccer player
-                inputField = document.querySelector("input")
-                checkButton = document.querySelector("#check")
-                checkButton.addEventListener("click", function (event) {
-                    if (inputField.value.toLowerCase() == "ronaldo") {
+                input = document.querySelector("input")
+                confirmBtn = document.querySelector("#confirm")
+                confirmBtn.addEventListener("click", function (event) {
+                    if (input.value.toLowerCase() == "ronaldo") {
                         document.getElementById("player_result").innerHTML = "Correct!"
-                        inputField.style.backgroundColor = "green"
+                        input.style.backgroundColor = "green"
                     }
                     else {
                         document.getElementById("player_result").innerHTML = "Incorrect"
-                        inputField.style.backgroundColor = "red"
+                        input.style.backgroundColor = "red"
                     }
                 })
             })
@@ -80,7 +79,7 @@
                 <h3>What is the last name of the soccer player with the most earnings in 2021?</h3>
                 <h3 id="player_result"></h3>
                 <input type="text"></input>
-                <button id="check" class="input">Confirm</button>
+                <button id="confirm" class="input">Confirm</button>
             </div>
 
         </div>
